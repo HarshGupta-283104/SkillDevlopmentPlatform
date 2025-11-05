@@ -33,13 +33,13 @@ app.use(
 );
 
 //defining routes
-app.use("/api/course", require("./routes/course"));
-app.use("/api/user", require("./routes/user"));
+app.use("/course", require("./routes/course"));
+app.use("/user", require("./routes/user"));
 
-app.use("/api/order", require("./routes/order"));
+app.use("/order", require("./routes/order"));
 
 //admin routes
-app.use("/api/admin", require("./routes/admin"));
+app.use("/admin", require("./routes/admin"));
 
 // Start Server
 app.listen(PORT, () => {
