@@ -17,10 +17,6 @@ const Footer = () => {
         <p className="text-sm mt-2">
           &copy; 2025 CourseNest. All Rights Reserved.
         </p>
-        <p className="font-semibold mt-2">
-          Made with <span className="text-red-600 text-xl">&hearts;</span> by{" "}
-          <span className="font-bold text-dark-sapphire">Aman Singh</span>
-        </p>
       </div>
       <div className="border-b-2 border-powder-blue h-1 w-full md:hidden"></div>
 
@@ -39,23 +35,7 @@ const Footer = () => {
       <div className="border-b-2 border-powder-blue h-1 w-full md:hidden"></div>
 
       {/* Social Links */}
-      <div className="flex flex-col items-center md:items-start gap-2">
-        <Link
-          to="https://github.com/iamAmanrajput"
-          className="flex items-center gap-2 hover:text-blue-500 transition"
-        >
-          <FaGithub className="text-xl" /> iamAmanrajput
-        </Link>
-        <p className="flex items-center gap-2">
-          <MdOutlineEmail className="text-xl" /> Aman.it360@gmail.com
-        </p>
-        <Link
-          to="#"
-          className="flex items-center gap-2 hover:text-blue-500 transition"
-        >
-          <CiLinkedin className="text-xl" /> Aman Singh
-        </Link>
-      </div>
+      
     </footer>
   );
 };
