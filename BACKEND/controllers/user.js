@@ -55,6 +55,7 @@ exports.signup = async (req, res) => {
       .json({ success: true, message: "Signup Successful", user });
   } catch (error) {
     return res.status(500).json({
+      error,
       success: false,
       message: "Something Went Wrong While Signing Up",
     });
