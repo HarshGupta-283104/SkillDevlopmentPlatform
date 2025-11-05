@@ -81,7 +81,7 @@ const MyCourses = () => {
   };
 
   return (
-    <div className="p-4 w-full min-h-screen bg-gradient-to-r from-powder-blue to-white text-dark-sapphire">
+    <div className="p-4 w-full min-h-dvh bg-gradient-to-r from-powder-blue to-white text-dark-sapphire">
       <h1 className="text-center font-bold text-2xl md:text-3xl">
         Our Courses
       </h1>

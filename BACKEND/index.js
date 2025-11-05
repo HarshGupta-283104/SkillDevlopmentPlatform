@@ -40,7 +40,10 @@ app.use("/order", require("./routes/order"));
 
 //admin routes
 app.use("/admin", require("./routes/admin"));
+app.get("/test/get",(req,res)=>{
 
+  res.send("<p>Hello</p>");
+})
 // Start Server
 app.listen(PORT, () => {
   console.log(`🚀 Server is Running On Port: ${PORT}`);

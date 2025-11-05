@@ -7,7 +7,7 @@ import Logo from "../../assets/Logo.png";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col md:flex-row items-center justify-between gap-6 px-6 py-8 border-t-2 border-powder-blue rounded-2xl text-gray-700">
+    <footer className="flex  flex-col md:flex-row items-center justify-between gap-6 px-6 py-8 border-t-2 border-powder-blue rounded-2xl text-gray-700">
       {/* Logo & Branding */}
       <div className="flex flex-col items-center md:items-start text-center md:text-left ">
         <Link to="/" className="flex items-center">
